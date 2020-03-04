@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.damage0413.shiyan_2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Linear3Activity"
+            android:label="线性布局_靠左对齐"></activity>
+        <activity android:name=".Linear2Activity"
+            android:label="线性布局_水平分布"></activity>
+        <activity
+            android:name=".WangGeActivity"
+            android:label="网格布局" />
+        <activity
+            android:name=".BiaoGeActivity"
+            android:label="表格分布" />
+        <activity
+            android:name=".ZhenActivity"
+            android:label="帧布局" />
+        <activity
+            android:name=".RelativeActivity"
+            android:label="相对布局" />
+        <activity
+            android:name=".LinearActivity"
+            android:label="线性布局_垂直分布" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

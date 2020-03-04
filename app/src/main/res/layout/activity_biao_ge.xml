@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BiaoGeActivity"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+    
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="0,1">
+        <TableRow>
+            <Button
+                android:text="第一个Button">
+
+            </Button>
+            <Button
+                android:text="第二个Button">
+
+            </Button>
+        </TableRow>
+        <Button
+            android:text="第三个Button">
+
+        </Button>
+        <TableRow>
+            <Button
+                android:text="第四个Button">\
+            </Button>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/ttm"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="100dp"
+        android:text="返回">
+
+    </Button>
+</LinearLayout>
